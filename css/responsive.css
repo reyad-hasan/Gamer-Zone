@@ -48,6 +48,19 @@
         width: 100%;
         margin: auto;
     }
+
+    .online-container {
+        flex-direction: column;
+    }
+
+    .online-funny-games-section .games-title {
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+
+    .online-funny-games-section .games-description {
+        font-size: 0.8rem;
+    }
 }
 
 
@@ -103,6 +116,14 @@
         width: 100%;
         margin: 30px auto;
     }
+
+    .online-container {
+        flex-direction: column;
+    }
+
+    .online-funny-games-section .games-title {
+        margin-top: 0px;
+    }
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1500px) {
@@ -111,7 +132,7 @@
     }
 
     .header-container {
-        padding: 100px 50px;
+        padding: 50px;
     }
 
     .header-title-left {
@@ -123,5 +144,8 @@
     .header-title-right {
         width: 50%;
         margin: auto;
+    }
+    .online-funny-games-section .games-title {
+        margin-top: 0px;
     }
 }

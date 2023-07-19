@@ -118,7 +118,7 @@ a:hover {
     border: 0;
     padding: 13px 40px;
     font-size: 1.2rem;
-    margin-top: 22px;
+    margin: 22px 10px 0px 0px;
 }
 
 .header-title-left .btn-go {
@@ -139,5 +139,75 @@ a:hover {
     width: 100%;
 }
 
-
 /* header title and image section end */
+
+/* we are gamer section start */
+/* we are gamer section end */
+
+/* online games section start */
+.online-funny-games-section .games-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 18px;
+}
+
+.online-funny-games-section .games-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.online-funny-games-section .games-title-gradient {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-section {
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+}
+
+.online-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.online-container .card {
+    flex: 1;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    transition: 0.2s;
+}
+
+.online-container .card:hover {
+    border: 3px solid #AA53DE;
+}
+
+.online-container .card img {
+    width: 100%;
+    height: auto;
+}
+
+.online-container .card .card-description {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 25px;
+    /* 150% */
+}
+
+/* online games section end  */
