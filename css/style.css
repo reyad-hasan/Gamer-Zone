@@ -215,9 +215,9 @@ a:hover {
 
 .play-instantly-container {
     display: flex;
+    height: 60vh;
     padding: 0 250px;
     column-gap: 50px;
-    border: 1px solid black;
 }
 
 .play-instantly-left h1 {
@@ -239,14 +239,12 @@ a:hover {
 
 .play-instantly-left {
     width: 50%;
-    border: 2px solid blue;
     text-align: right;
     margin: auto;
 }
 
 .play-instantly-right {
     width: 50%;
-    border: 2px solid red;
     position: relative;
 }
 

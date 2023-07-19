@@ -61,27 +61,36 @@
     .online-funny-games-section .games-description {
         font-size: 0.8rem;
     }
+
+    /* play instant section start */
     .play-instantly-container {
         flex-direction: column;
-        padding: 0 50px;
-        margin: 50px 0px;
+        padding: 50px;
+        row-gap: 50px;
     }
+
     .play-instantly-left {
         width: 100%;
         text-align: center;
     }
-    .play-instantly-left p {
-        margin: 20px 0px;
-    }
+
     .play-instantly-right {
         width: 100%;
+        position: relative;
+        margin-left: 0px;
     }
+
     .play-instantly-right .position-photo {
-        width: 100%;
+        width: 50%;
+        margin-left: 20%;
     }
+
     .play-instantly-right .position-img {
-        width: 200px;
+        right: 172px;
+        top: 150px
     }
+
+    /* play instant section end */
 }
 
 
@@ -145,9 +154,48 @@
     .online-funny-games-section .games-title {
         margin-top: 0px;
     }
+
+    /* play instant section start */
+
+    .play-instantly-container {
+        flex-direction: column;
+        padding: 50px;
+        height: 500px;
+    }
+
+    .play-instantly-left {
+        width: 100%;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    .play-instantly-left h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .play-instantly-right {
+        width: 100%;
+        margin-left: 50px;
+        position: relative;
+    }
+
+    .play-instantly-right .position-photo {
+        width: 400px;
+    }
+
+    .play-instantly-right .position-img {
+        width: 180px;
+        position: absolute;
+        left: 50px;
+        top: 240px;
+    }
+
+    /* play instant section end */
 }
 
-@media screen and (min-width: 1023px) and (max-width: 1500px) {
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
     .navbar-section {
         padding: 0px 50px;
     }
@@ -166,7 +214,42 @@
         width: 50%;
         margin: auto;
     }
+
     .online-funny-games-section .games-title {
         margin-top: 0px;
     }
+
+    /* play instant section start */
+
+    .play-instantly-container {
+        display: flex;
+        padding: 50px;
+        column-gap: 50px;
+        height: 500px;
+    }
+
+    .play-instantly-left {
+        width: 50%;
+        text-align: right;
+        margin: auto;
+    }
+
+    .play-instantly-right {
+        width: 50%;
+        position: relative;
+    }
+
+    .play-instantly-right .position-photo {
+        width: 400px;
+        margin-left: 50px;
+    }
+
+    .play-instantly-right .position-img {
+        width: 180px;
+        position: absolute;
+        left: -50px;
+        top: 240px;
+    }
+
+    /* play instant section end */
 }
