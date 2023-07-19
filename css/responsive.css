@@ -61,6 +61,27 @@
     .online-funny-games-section .games-description {
         font-size: 0.8rem;
     }
+    .play-instantly-container {
+        flex-direction: column;
+        padding: 0 50px;
+        margin: 50px 0px;
+    }
+    .play-instantly-left {
+        width: 100%;
+        text-align: center;
+    }
+    .play-instantly-left p {
+        margin: 20px 0px;
+    }
+    .play-instantly-right {
+        width: 100%;
+    }
+    .play-instantly-right .position-photo {
+        width: 100%;
+    }
+    .play-instantly-right .position-img {
+        width: 200px;
+    }
 }
 
 
