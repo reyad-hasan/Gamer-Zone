@@ -66,6 +66,28 @@
     }
 
 
+
+    .play-instantly-section {
+        padding: 0px 100px 140px;
+    }
+
+    .play-instantly-container {
+        flex-direction: column;
+        row-gap: 70px;
+    }
+
+    .play-instantly-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-instantly-right {
+        width: 100%;
+    }
+
+
+
+
     .careers-section {
         padding: 0px 100px;
     }
@@ -226,7 +248,23 @@
         text-align: center;
     }
 
+    .play-instantly-section {
+        padding: 50px 50px 140px;
+    }
 
+    .play-instantly-container {
+        flex-direction: column;
+        row-gap: 70px;
+    }
+
+    .play-instantly-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-instantly-right {
+        width: 100%;
+    }
 
     .careers-section {
         padding: 0px 100px;
@@ -380,6 +418,43 @@
         line-height: 20px;
     }
 
+    .play-instantly-section {
+        padding: 50px;
+    }
+
+    .play-instantly-container {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .play-instantly-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-instantly-container .play-instantly-left h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 35px;
+    }
+
+    .play-instantly-right {
+        width: 100%;
+    }
+
+    .play-instantly-right img {
+        /* width: 100% */
+    }
+
+    .play-instantly-right .play-instantly-img-position img {
+        height: 150px;
+        width: 120px
+    }
+
+    .play-instantly-right .play-instantly-img-position {
+        right: 63%;
+        top: 65%;
+    }
 
     .careers-section {
         padding: 0px 50px;
