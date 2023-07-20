@@ -306,6 +306,81 @@ nav ul li a {
 }
 
 /* play games anywhere section end */
+
+/* careers section start */
+
+.careers-section {
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 0 250px;
+}
+
+.careers-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 200px;
+}
+
+.careers-container .careers-left {
+    width: 50%;
+}
+
+.careers-container .careers-right {
+    width: 50%;
+}
+
+.careers-container .careers-right img {
+    width: 100%;
+}
+
+.careers-container .careers-left h2 {
+    color: #B652D7;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.careers-container .careers-left p {
+    color: #B652D7;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.careers-another-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+
+.careers-left-left ul li {
+    list-style: none;
+    line-height: 25px;
+    color: #B652D7;
+}
+
+.careers-left-left .careers-left-left-btn {
+    background-color: #B652D7;
+    padding: 14px 25px;
+    border-radius: 30px;
+    border: 0;
+    color: #FFF;
+    font-size: 1rem;
+    margin-top: 25px;
+}
+
+.careers-left-right {
+    text-align: right;
+}
+
+.careers-left-right ul li {
+    list-style: none;
+    line-height: 25px;
+    color: #B652D7;
+}
+
+/* careers section end */
+
 /* games name section start */
 .games-name-section {
     min-height: 300px;

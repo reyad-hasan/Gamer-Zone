@@ -65,6 +65,28 @@
         text-align: center;
     }
 
+
+    .careers-section {
+        padding: 0px 100px;
+    }
+
+    .careers-container {
+        flex-direction: column;
+    }
+
+    .careers-container .careers-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .careers-container .careers-right {
+        width: 100%;
+    }
+
+    .careers-another-container .careers-left-left {
+        text-align: left;
+    }
+
     .games-name-section {
         padding: 50px 100px;
     }
@@ -204,6 +226,24 @@
         text-align: center;
     }
 
+
+
+    .careers-section {
+        padding: 0px 100px;
+    }
+
+    .careers-container {
+        flex-direction: column;
+    }
+
+    .careers-container .careers-left {
+        width: 100%;
+    }
+
+    .careers-container .careers-right {
+        width: 100%;
+    }
+
     .games-name-section {
         padding: 50px 100px;
     }
@@ -338,6 +378,31 @@
     .play-anywhere-right p {
         font-size: 0.8rem;
         line-height: 20px;
+    }
+
+
+    .careers-section {
+        padding: 0px 50px;
+    }
+
+    .careers-container .careers-left {
+        text-align: center;
+    }
+
+    .careers-container {
+        flex-direction: column;
+    }
+
+    .careers-container .careers-left {
+        width: 100%;
+    }
+
+    .careers-container .careers-right {
+        width: 100%;
+    }
+
+    .careers-another-container .careers-left-left {
+        text-align: left;
     }
 
     .games-name-section {
