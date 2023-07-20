@@ -66,7 +66,9 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 250px;
+    padding: 50px 250px 0px 250px;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .play-like-content-left {
@@ -118,6 +120,74 @@ nav ul li a {
 }
 
 /* play like section end */
+
+
+
+/* we are gamer section start */
+.we-are-gamer-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 0 250px;
+}
+
+.we-are-gamer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.we-are-gamer-container .gamer-left {
+    width: 50%;
+}
+
+.we-are-gamer-container .gamer-left img {
+    width: 100%;
+}
+
+.we-are-gamer-container .gamer-right {
+    width: 50%;
+    text-align: right;
+}
+
+.we-are-gamer-container .gamer-right h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.we-are-gamer-container .gamer-right p {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 15px 0px;
+}
+
+.we-are-gamer-container .gamer-right .we-are-btn {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 15px 40px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+}
+
+.we-are-gamer-container .gamer-right h4 {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* we are gamer section end */
+
+
+
+
 /* online games section start */
 .online-games-section {
     padding: 0px 250px;
